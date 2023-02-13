@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="/07 Estilos para formularios/CSS/Ej_7_formularios.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Registrate en los formularios</h3>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABVlBMVEX////qQzU0qFNChfT7vAUwffTT4/M4gPSdu/ixyPr7ugDqQDH/vQD7uAD86+owp1AopUvpOirpMh
+                    /qPS7pLhoYokLpNiXpKxYipEcRoT/74N78wgA8gvTc7uBDg/v2uLTyl5HsWE3+9vVgt3Xi8eWUzKH509H0qaX3wb7wgnv74+H+9Nz//ff914f94qn93p4Up1fO59RQsWis17YzqkLC4cn1ranxjIXrTkHylpDsXVLve
+                    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"
+                    alt="logo-google"/>
+                </picture>
+                <span>Registrarse con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture>T</picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O...</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name" />
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input id="username" name="username" />
+                </label>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input id="email" name="email" />
+            </label>
+            <label for="password">
+                <span>Password</span>
+                <input id="password" name="password" placeholder="6+ caracteres" />
+            </label>
+            <label for="checkbox" class="checkbox-label">
+                <input type="checkbox" id="checkbox">
+                <span>Acepto las condiciones y el aviso legal</span>
+            </label>
+            <button type="submit" class="submit-btn">Crear cuenta</button>
+        </form>
+    </div>
+</body>
+</html>
